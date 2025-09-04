@@ -38,14 +38,14 @@ Standard NLP cleaning techniques were applied to the raw headline text to prepar
 Three different classification algorithms were trained and evaluated:
 - **Logistic Regression**
 - **Multinomial Naive Bayes**
-- **Linear Support Vector Machine (SVM)**
+- **Support Vector Machine (SVM)**
 
 ---
 
 ## 🏆 Model Performance
-- **Best Model**: **Linear Support Vector Machine (SVM)** demonstrated the best performance among the tested models.
+- **Best Model**: **Support Vector Machine (SVM)** demonstrated the best performance among the tested models.
 
-**Performance Metrics on Test Set (Linear SVM):**
+**Performance Metrics on Test Set (SVM):**
 - **Accuracy** → **~0.79**
 
 The model showed well-balanced precision and recall across all three categories, indicating it is not significantly biased towards any single class.
